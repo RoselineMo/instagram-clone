@@ -1,0 +1,123 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* border-top: 1.7px solid #dedbdb; */
+}
+
+img {
+  width: 100%;
+}
+
+.main-wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+.nav-bar {
+  width: 30%;
+  height: 100vh;
+}
+
+.nav-bar img {
+  width: 130px;
+  height: 130px;
+  margin: 0 0 0 1.5rem;
+}
+
+.stories-wrapper {
+  padding: 1rem 1rem 0.4rem 0.4rem;
+  width: 28%;
+  height: 100vh;
+}
+
+.stories-wrapper h6 {
+  padding-top: 1rem;
+}
+
+.main-area {
+  width: 100%;
+  height: 100vh;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.user-data {
+  margin-left: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.user-data .user-handle {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.user-data .user-fullname {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #838282;
+}
+
+.image-wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  padding: 5px;
+  background-image: url("../assets/images/download.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bar {
+  border-right: 2px solid #dedbdb;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  object-fit: cover;
+  /* align-items: center;
+    justify-content: center;
+    background-image: url("../assets/images/download.png");
+    background-size: cover;
+    background-position: center; */
+}
+
+.main-area {
+  padding: 3rem 15rem 1rem 15rem;
+}
+
+#dot {
+  font-size: 5px;
+}
+
+.three-dots {
+  /* position: absolute;
+    text-align: middle; */
+}
+
+.user-feeds {
+    padding: 2px;
+    height: 400px;
+}
