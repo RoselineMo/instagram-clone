@@ -5,10 +5,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  /* border-top: 1.7px solid #dedbdb; */
-}
-
 img {
   width: 100%;
 }
@@ -19,20 +15,42 @@ img {
 }
 
 .nav-bar {
-  width: 30%;
+  width: 19%;
   height: 100vh;
+  border-right: 2px solid #dedbdb;
+  position: fixed;
+  overflow-x: hidden;
 }
 
 .nav-bar img {
   width: 130px;
   height: 130px;
-  margin: 0 0 0 1.5rem;
+  margin: -1rem 0 0 1.5rem;
+}
+
+.nav-options {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.nav-options small {
+    padding-left: 0.7rem;
+}
+
+.nav-options-menu {
+    padding-top: 7rem;
+}
+
+.nav-selections {
+    padding-left: 1.8rem;
 }
 
 .stories-wrapper {
-  padding: 1rem 1rem 0.4rem 0.4rem;
-  width: 28%;
+  padding: 1.2rem 1rem 0.4rem 0.4rem;
+  width: 30%;
   height: 100vh;
+  
+  overflow-x: hidden;
 }
 
 .stories-wrapper h6 {
@@ -42,6 +60,8 @@ img {
 .main-area {
   width: 100%;
   height: 100vh;
+  padding: 3rem 12rem 1rem 25rem;
+  border-right: 2px solid #dedbdb;
 }
 
 .user-card {
@@ -83,12 +103,9 @@ img {
   background-position: center;
 }
 
-.nav-bar {
-  border-right: 2px solid #dedbdb;
-}
-
 .user-info {
   display: flex;
+  justify-content: space-between;
 }
 
 .user-image {
@@ -104,20 +121,26 @@ img {
     background-position: center; */
 }
 
-.main-area {
-  padding: 3rem 15rem 1rem 15rem;
-}
-
 #dot {
   font-size: 5px;
 }
 
-.three-dots {
-  /* position: absolute;
-    text-align: middle; */
+.user-feeds {
+    padding: 2px 2px 0 2px;
+    height: 300px;
+    margin: 10px 0 5px 0;
+    object-fit: cover;
 }
 
-.user-feeds {
-    padding: 2px;
-    height: 400px;
+.user-feeds-reactions {
+    display: flex;
+}
+
+.reaction-options {
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+.saved-icon {
+    padding-left: 22rem;
 }
